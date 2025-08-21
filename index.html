@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Quotes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>💡 Daily Quotes</h1>
+    <input type="text" id="search" placeholder="ابحث عن اقتباس...">
+    <nav>
+      <button onclick="filterCategory('all')">الكل</button>
+      <button onclick="filterCategory('life')">الحياة</button>
+      <button onclick="filterCategory('success')">النجاح</button>
+      <button onclick="filterCategory('love')">الحب</button>
+      <button onclick="filterCategory('motivation')">تحفيز</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="quotes-list"></section>
+    <button id="new-quote">✨ اقتباس جديد</button>
+  </main>
+
+  <footer>
+    <p>© 2025 Daily Quotes | جميع الحقوق محفوظة</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
